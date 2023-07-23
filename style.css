@@ -15,11 +15,17 @@ header{
     margin-top: 3%;
     width: 50%;
 }
+h1{
+    font-size: 5vh;
+}
 h4{
     margin-bottom: 1%;
+    font-size: 2vh;
+    font-weight: 600;
+    flex-wrap: nowrap;
 }
 label{
-    font-size: 2vh;
+    font-size: 1.5vh;
     font-weight: 500;
 }
 input{
