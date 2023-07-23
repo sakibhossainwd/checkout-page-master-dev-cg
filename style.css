@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    margin-top: 8%;
+}
+.checkout{
+    margin-top: 3%;
+    width: 50%;
+}
+h4{
+    margin-bottom: 1%;
+}
+label{
+    font-size: 2vh;
+    font-weight: 500;
+}
+input{
+    font-family: Arial, FontAwesome;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 3%;
+}
+.shooping{
+    margin-top: 8%;
+}
