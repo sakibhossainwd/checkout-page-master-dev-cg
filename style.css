@@ -17,7 +17,7 @@ header{
 }
 .checkout{
     margin-top: 3%;
-    width: 50%;
+    width: 60%;
 }
 h1{
     font-size: 5vh;
@@ -56,7 +56,7 @@ label{
     width: 130%;
 }
 .postal input{
-    width: 60%;
+    width: 50%;
 }
 #checkbox{
     margin-top: 3%;
@@ -76,21 +76,25 @@ label{
 
 /* product */
 .products{
+    width: 30%;
     background-color: #f2f2f2;
     padding: 3% 3%;
     border-radius: 5%;
 }
 .bag{
     display: flex;
-    gap: 10%;
+    gap: 0%;
 }
 .img img{
-    width: 90%;
+    width: 80%;
     border-radius: 10%;
 }
-/* .bag-quantity{
+.bag-quantity{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
 
-} */
+}
 .product-name h4{
     font-size: 2vh;
     font-weight: 500;
@@ -103,9 +107,10 @@ label{
     color: #f2994a;
 }
 .bag-count{
+    width: 100%;
     border: 1px solid black;
     padding: 5%;
-    border-radius: 5%;
+    border-radius: 15px;
 }
 .count-box{
     display: flex;
@@ -114,9 +119,9 @@ label{
 }
 .minus, .plus{
     background-color: #bebebe;
-    padding: 5px 15px;
+    padding: 2% 10%;
     font-size: 2vh;
-    border-radius: 5%;
+    border-radius: 10%;
 }
 .quantity p{
     font-size: 2vh;
@@ -129,9 +134,12 @@ label{
         flex-direction: column-reverse;
     }
     .checkout{
-        width: 100%;
+        width: 110%;
     }
     .country-postal{
-        width: 100%;
+        width: 105%;
+    }
+    .products{
+        width: 90%;
     }
 }
