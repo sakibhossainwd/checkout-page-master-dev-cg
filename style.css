@@ -76,20 +76,29 @@ label{
 
 /* product */
 .products{
+    margin-top: 8%;
     width: 30%;
     background-color: #f2f2f2;
     padding: 3% 3%;
     border-radius: 5%;
+    height: 90%;
 }
-.bag{
+.bag, .shows{
     display: flex;
     gap: 0%;
+}
+.shows{
+    margin-top: 10%;
 }
 .img img{
     width: 80%;
     border-radius: 10%;
 }
-.bag-quantity{
+.shows-img{
+    width: 30%;
+}
+.product-quantity{
+    width: 80%;
     display: flex;
     flex-flow: row wrap;
     align-content: space-between;
@@ -111,6 +120,7 @@ label{
     border: 1px solid black;
     padding: 5%;
     border-radius: 15px;
+    margin-bottom: 5%;
 }
 .count-box{
     display: flex;
@@ -119,14 +129,27 @@ label{
 }
 .minus, .plus{
     background-color: #bebebe;
-    padding: 2% 10%;
+    padding: 1% 7%;
     font-size: 2vh;
     border-radius: 10%;
 }
 .quantity p{
     font-size: 2vh;
 }
-
+.peice-item{
+    margin-top: 10%;
+}
+hr{
+    border: 1px solid rgb(125, 125, 125);
+    margin-top: 5%;
+}
+.shipping-price{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vh;
+    font-weight: 300;
+}
 
 @media only screen and (max-width: 576px){
     .checkout-container{
@@ -140,6 +163,6 @@ label{
         width: 105%;
     }
     .products{
-        width: 90%;
+        width: 95%;
     }
 }
